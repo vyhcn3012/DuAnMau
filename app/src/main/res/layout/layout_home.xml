@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imgSach"
+        android:layout_width="204dp"
+        android:layout_height="136dp"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="388dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sachh" />
+
+    <ImageView
+
+        android:id="@+id/imgPhieuMuon"
+        android:layout_width="204dp"
+        android:layout_height="136dp"
+
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="31dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/phieumuonn" />
+
+    <ImageView
+        android:id="@+id/imgLoaiSach"
+        android:layout_width="204dp"
+        android:layout_height="136dp"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgPhieuMuon"
+        app:srcCompat="@drawable/loaisachh" />
+
+    <ImageView
+        android:id="@+id/imgThanhVien"
+        android:layout_width="204dp"
+        android:layout_height="136dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="45dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/thanhvienn" />
+
+</android.support.constraint.ConstraintLayout>

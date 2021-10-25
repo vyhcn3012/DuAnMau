@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/slide1"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/main_1"
+        android:layout_width="126dp"
+        android:layout_height="121dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="130dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/slide1_1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PN BOOK"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:layout_marginTop="275dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="39dp"
+        android:text="Quản lý chi tiêu thư viện và hoàn thiện mục tiêu tài chính"
+        android:textColor="#ffffff"
+        android:textSize="14sp" />
+
+    <View
+        android:id="@+id/group_4"
+        android:layout_width="103dp"
+        android:layout_height="14dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="470dp"
+        android:background="@drawable/slide1_2"
+        />
+
+    <Button
+        android:onClick="openDangKy"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/slide1_3"
+        android:layout_marginTop="560dp"/>
+    <Button
+        android:onClick="openDangNhap"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/slide1_4"
+        android:layout_marginTop="610dp"/>
+
+</RelativeLayout>

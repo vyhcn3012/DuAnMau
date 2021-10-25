@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đổi mật khẩu"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/group_7"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="85dp"
+        android:background="@drawable/dangky_1"
+        />
+
+    <View
+        android:id="@+id/group_8"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/dangky_2"
+        />
+
+    <View
+        android:id="@+id/group_9"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="195dp"
+        android:background="@drawable/dangky_3"
+        />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="255dp"
+        android:text="Chúng tôi sẽ không đăng thông tin mà không có sự cho phép của bạn."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <View
+        android:id="@+id/group_16"
+        android:layout_width="160dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="315dp"
+        android:background="@drawable/dangky_4"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="303dp"
+        android:layout_centerInParent="true"
+        android:text="HOẶC"
+        android:textColor="@color/black"
+        />
+
+    <View
+        android:id="@+id/group_17"
+        android:layout_width="160dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="315dp"
+        android:background="@drawable/dangky_4"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="531dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/custom"
+        android:backgroundTint="@color/white">
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="90dp"
+            android:id="@+id/textinputmkcu"
+            app:passwordToggleEnabled="true">
+            <android.support.design.widget.TextInputEditText
+
+
+                android:inputType="textPassword"
+                android:id="@+id/editTextMatKhauCu"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+
+                android:background="@drawable/custom_edittext"
+                android:hint="Nhập password cũ"
+                android:padding="15dp" />
+        </android.support.design.widget.TextInputLayout>
+
+<android.support.design.widget.TextInputLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="30dp"
+    android:layout_marginTop="170dp"
+    android:id="@+id/textinputmkmoi"
+
+    app:passwordToggleEnabled="true">
+        <android.support.design.widget.TextInputEditText
+
+
+            android:inputType="textPassword"
+            android:id="@+id/editTextMatKhauMoi"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/custom_edittext"
+            android:hint="Nhập password mới"
+            android:padding="15dp" />
+</android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="250dp"
+            app:passwordToggleEnabled="true">
+            <android.support.design.widget.TextInputEditText
+
+
+                android:inputType="textPassword"
+                android:id="@+id/editTextMatKhauxacnhan"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+
+                android:background="@drawable/custom_edittext"
+                android:hint="Xác nhận password mới"
+                android:padding="15dp" />
+        </android.support.design.widget.TextInputLayout>
+
+
+
+        <Button
+            android:id="@+id/buttonLuu"
+            android:layout_width="300dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="360dp"
+            android:background="@drawable/dangky_5"
+            android:text="Lưu"
+            android:textColor="@color/white" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
