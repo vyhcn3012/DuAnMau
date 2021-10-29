@@ -3,15 +3,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="#7FFFD4"
     android:layout_height="match_parent">
 
     <TextView
         android:id="@+id/txtMaSach"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="100dp"
         android:layout_marginTop="26dp"
         android:text="TextView"
+        android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,10 +23,11 @@
         android:id="@+id/txtTenSach"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="100dp"
         android:layout_marginTop="10dp"
         android:text="TextView"
         android:textSize="20sp"
+        android:textColor="@color/black"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -56,6 +59,7 @@
         android:layout_marginStart="220dp"
         android:layout_marginTop="35dp"
         android:text="TextView"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtMaLoai" />
 
@@ -66,6 +70,7 @@
         android:layout_marginStart="220dp"
         android:layout_marginTop="15dp"
         android:text="TextView"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -73,9 +78,21 @@
         android:id="@+id/txtsoLuong1CuonSach"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="19dp"
+        android:layout_marginStart="220dp"
         android:layout_marginTop="20dp"
         android:text="TextView"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtMaSach" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="95dp"
+        android:layout_height="121dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/lab8" />
+
 </android.support.constraint.ConstraintLayout>

@@ -11,9 +11,9 @@
         android:layout_width="204dp"
         android:layout_height="136dp"
         android:layout_marginStart="103dp"
-        android:layout_marginTop="388dp"
+        android:layout_marginTop="44dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgLoaiSach"
         app:srcCompat="@drawable/sachh" />
 
     <ImageView
@@ -22,9 +22,9 @@
         android:layout_width="204dp"
         android:layout_height="136dp"
 
-        android:layout_marginStart="103dp"
         android:layout_marginTop="31dp"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginEnd="104dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/phieumuonn" />
 
@@ -42,10 +42,10 @@
         android:id="@+id/imgThanhVien"
         android:layout_width="204dp"
         android:layout_height="136dp"
+        android:layout_marginTop="44dp"
         android:layout_marginEnd="104dp"
-        android:layout_marginBottom="45dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgSach"
         app:srcCompat="@drawable/thanhvienn" />
 
 </android.support.constraint.ConstraintLayout>
